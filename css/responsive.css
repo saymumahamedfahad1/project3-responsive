@@ -1,0 +1,326 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* header */
+    #header{
+        height: 80vh;
+    }
+    #header .navbar-toggler{
+        background-color: white;
+    }
+    #header .navbar-brand{
+     width: 25%;
+   }
+    #header .nav-item{
+        margin-top: 20px;
+    }
+    /* header */
+    /* product */
+    #product .fa-thumbs-up{
+        margin-top: 15px;
+    }
+    #product .fa-mobile{
+        margin-top: 15px;
+    }
+
+    /* product */
+    /* client1 */
+    #client1 .row {
+        margin-left: 200px;
+       
+    }
+    #client1 h2{
+        font-size: 24px;
+    }
+    /* client1 */
+    /* like */
+    #like h1{
+        font-size: 15px;
+    }
+    #like .btn1{
+        padding: 8px 8px;
+       
+    }
+    #like .btn2{
+        padding: 8px 8px;
+    }
+    #like .btnn{
+        margin-top: 5px;
+    }
+    /* like */
+    /* pricing */
+    #pricing .card{
+        margin-bottom: 25px;
+    }
+   
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+   /* header  */
+   #header{
+       padding: 0px 15px;
+   }
+   #header .navbar-toggler{
+       background-color: white;
+   }
+   #header .navbar-brand{
+    width: 20%;
+  }
+  #header{
+    height: 80vh;
+
+}
+#header .nav-item{
+    margin-top: 20px;
+}
+
+#header h2{
+    font-size: 27px;
+    line-height: 40px;
+}
+#header p{
+    font-size: 13px;
+    line-height: 26px;
+
+}
+#header .btnn{
+    padding-top: 10px;
+}
+#header .btn1{
+    padding: 8px 8px;
+}
+#header .btn2{
+    padding: 8px 8px;
+}
+
+   /* header  */
+
+   /* product */
+   #product{
+       padding: 0px 15px;
+   }
+   #product h2{
+    font-size: 27px;
+}
+#product .fa-solid{
+  margin-top: 30px;
+}
+#product .fa-regular{
+    margin-top: 30px;
+}
+#product  .res{
+    padding-bottom: 50px;
+}
+.divider3{
+    width: 20%;
+}
+/* product */
+
+/* details */
+#details h1{
+    text-align: center;
+
+}
+#details h2{
+    font-size: 27px;
+    text-align: center;
+
+}
+.divider2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+
+}
+#details p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+
+}
+#details .icon1{
+    text-align: center;
+}
+#details .icon2{
+    text-align: center;
+}
+#details .icon3{
+    text-align: center;
+}
+#details .icon4{
+    text-align: center;
+}
+#details .fa-arrow-pointer{
+    margin-left: 0px;
+
+}
+#details .fa-bolt{
+    margin-left: -28px;
+
+}
+#details .fa-clock{
+    margin-left: 90px;
+
+}
+#details span{
+    font-size: 13px;
+
+}
+#details img{
+    width: 80%;
+    text-align: center;
+    margin-left: 50px;
+}
+/* details */
+/* super */
+#super{
+    padding: 0px 15px;
+}
+#super h1{
+    text-align: center;
+
+}
+#super h2{
+    text-align: center;
+    font-size: 27px;
+
+}
+.divider1{
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#super p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+
+}
+/* super */
+/* client1 */
+#client1{
+    padding: 0px 15px;
+}
+#client1 h2{
+    font-size: 27px;
+
+}
+#client1 .divider{
+    width: 20%;
+
+}
+/* client1 */
+/* like */
+#like{
+    padding: 0px 15px;
+}
+#like h1{
+    font-size: 27px;
+
+}
+#like .btnn{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+#like .btn1{
+    padding: 8px 8px;
+}
+#like .btn2{
+    padding: 8px 8px;
+}
+/* like */
+/* pricing */
+#pricing{
+    padding: 0px 15px;
+}
+#pricing h2{
+    font-size: 27px;
+
+}
+/* pricing */
+/* contact */
+#contact h2{
+    font-size: 27px;
+}
+.divider4{
+    width: 20%;
+
+
+}
+#contact .fa-solid{
+    margin-top: 10px;
+}
+#contact .left{
+    margin: 0;
+    padding: 0px;
+}
+#contact .contact-box {
+    left: 0px;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 50px 30px;
+    width: 80%;
+
+}
+#contact .butnnoo {
+    margin-top: 20px;
+    margin-right: 45px;
+ 
+}  
+  }
